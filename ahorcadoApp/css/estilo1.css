@@ -1,0 +1,111 @@
+/*Serafin y Nancy/*
+
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px;
+	padding: 0px;
+	background-image:url(../../../imagenes/illust_60268713_20190322_132600.png);
+	height: 100hv;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	background: #F93;
+	border-radius: 5px;
+	margin: 2px;
+	}
+/*Esto es el css del cuerpo*/
+
+input[type="submit"] {
+	border-radius: 10px;
+	background: -webkit-linear-gradient(#FFF,#00F);
+	background: -moz-linear-gradient(#FFF,#00F);
+	border:none;
+	
+}
+input[type="submit"]:hover {
+  color: #FFF;
+	border-bottom: 2px solid #E67E22;
+}
+
+select {
+	width: 100px;
+	border: none;
+}
+input {
+	border:2px;
+	border-radius: 5px;
+	text-align:	
+	width: 100px;
+}
+div {
+	border: 2px  solid read;
+}
+
+#content {
+	text-align:center;
+	background:#000;
+}
+
+#Opciones {
+	
+	border-radius:5px;
+	width: 50%;
+	text-align:center;
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	padding:10px;
+	
+}
+#Opciones p {
+	color:#FFF;
+}
+
+.search-box {
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding:10px;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+	background: white;
+}
+.search-btn {
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border:none;
+	background: none;
+	outline: none;
+	float; left:;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+	
+}

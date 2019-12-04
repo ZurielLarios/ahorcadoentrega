@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	text-align:center;
+	background-color: #333;
+	background-image: url("images/f.jpg");
+}
+
+
+
+#cargando {
+	display: none;
+}
+
+#anterior i {
+transform: rotate(180deg);	
+}
+
+  #contenedor-letras>div {
+	display: inline-block;  
+  }
+
+
+#palabra {
+	letter-spacing: 10px;
+}
+#colecciones {
+	display: none;
+}
